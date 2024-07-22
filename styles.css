@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #87CEEB; /* sky blue */
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#task-list li {
+    padding: 30px; /* increased padding */
+    border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
+
+.task-complete {
+    text-decoration: line-through;
+    color: #999;
+}
+
+#add-task-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add-task-btn {
+    background-color: #2ECC40; /* green */
+    color: #fff;
+    padding: 25px 50px; /* increased padding */
+    font-size: 20px; /* increased font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #1E933F; /* darker green */
+}
+
+#task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#task-list li:active {
+    background-color: #ccc;
+}
+
+.task-complete:hover {
+    text-decoration: none;
+}
+
+.delete-btn {
+    background-color: #FF3737; /* red */
+    color: #fff;
+    padding: 20px 40px; /* increased padding */
+    font-size: 18px; /* increased font size */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #CC0000; /* darker red */
+}
+
+input[type="text"], input[type="date"] {
+    padding: 20px;
+    font-size: 20px; /* increased font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px; /* increased width */
+}
